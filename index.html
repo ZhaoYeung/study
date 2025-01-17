@@ -195,17 +195,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -215,39 +204,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -435,28 +391,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -471,20 +405,132 @@
 
 
 <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="ram">内存 (RAM)</h1>
+<p>内存是计算机的短期存储区域，用于临时存储正在运行的程序和数据。</p>
+<h2 id="_1">特点</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><strong>高速访问</strong>：比硬盘快数百倍</li>
+<li><strong>易失性</strong>：断电后数据会丢失</li>
+<li><strong>随机访问</strong>：可以直接访问任何内存位置</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<h2 id="_2">类型</h2>
+<ul>
+<li><strong>DDR3</strong>：第三代双倍数据率同步动态随机存取内存</li>
+<li><strong>DDR4</strong>：比DDR3更快、更节能</li>
+<li><strong>DDR5</strong>：最新一代，提供更高带宽和更低功耗</li>
+</ul>
+<h2 id="_3">容量</h2>
+<ul>
+<li><strong>个人电脑</strong>：通常从8GB到64GB</li>
+<li><strong>服务器</strong>：可达数TB</li>
+</ul>
+<h2 id="_4">工作原理</h2>
+<p>使用晶体管和电容器存储每一位数据，需要定期刷新以保持数据。</p>
+<hr />
+<h1 id="hdd">硬盘 (HDD)</h1>
+<p>硬盘是计算机的长期存储设备，用于存储操作系统、程序和用户数据。</p>
+<h2 id="_5">特点</h2>
+<ul>
+<li><strong>大容量</strong>：可存储大量数据</li>
+<li><strong>非易失性</strong>：断电后数据不会丢失</li>
+<li><strong>价格相对便宜</strong>：每GB成本低</li>
+</ul>
+<h2 id="_6">工作原理</h2>
+<ul>
+<li>使用磁性盘片存储数据</li>
+<li>读写头在旋转的盘片上读写数据</li>
+<li>数据以磁道和扇区的形式组织</li>
+</ul>
+<h2 id="_7">性能指标</h2>
+<ul>
+<li><strong>转速</strong>：通常为5400RPM或7200RPM</li>
+<li><strong>寻道时间</strong>：平均在5-15ms</li>
+<li><strong>数据传输率</strong>：可达100-200MB/s</li>
+</ul>
+<h2 id="_8">容量</h2>
+<p>从500GB到20TB不等，持续增长中。</p>
+<hr />
+<h1 id="ssd">闪存 (SSD)</h1>
+<p>固态硬盘是一种使用闪存技术的存储设备，越来越多地取代传统硬盘。</p>
+<h2 id="_9">特点</h2>
+<ul>
+<li><strong>高速</strong>：读写速度远超HDD</li>
+<li><strong>低延迟</strong>：几乎无寻道时间</li>
+<li><strong>耐用</strong>：无机械部件，抗震动</li>
+<li><strong>静音</strong>：运行时无噪音</li>
+</ul>
+<h2 id="_10">类型</h2>
+<ul>
+<li><strong>SATA SSD</strong>：使用与HDD相同的接口</li>
+<li><strong>NVMe SSD</strong>：直接连接到PCIe总线，速度更快</li>
+</ul>
+<h2 id="_11">工作原理</h2>
+<ul>
+<li>使用NAND闪存芯片存储数据</li>
+<li>通过电子方式读写数据，无机械移动部件</li>
+</ul>
+<h2 id="_12">性能</h2>
+<ul>
+<li><strong>读取速度</strong>：可达7000MB/s（NVMe）</li>
+<li><strong>写入速度</strong>：可达5000MB/s（NVMe）</li>
+</ul>
+<h2 id="_13">寿命</h2>
+<p>通常以TBW（总写入量）衡量，可达数百TB到数千TB。</p>
+<hr />
+<h1 id="_14">电源</h1>
+<p>电源为计算机的所有组件提供必要的电力。</p>
+<h2 id="_15">主要功能</h2>
+<ul>
+<li><strong>将交流电（AC）转换为直流电（DC）</strong></li>
+<li><strong>提供多种电压</strong>：如3.3V, 5V, 12V</li>
+<li><strong>稳压</strong>：确保电压稳定，防止波动</li>
+</ul>
+<h2 id="_16">重要性</h2>
+<ul>
+<li><strong>系统稳定性</strong>：稳定的电源供应确保系统正常运行</li>
+<li><strong>组件保护</strong>：防止电压波动损坏硬件</li>
+<li><strong>散热</strong>：内置风扇协助系统散热</li>
+</ul>
+<h2 id="_17">类型</h2>
+<ul>
+<li><strong>ATX</strong>：最常见的桌面电脑电源标准</li>
+<li><strong>SFX</strong>：小型机箱使用的紧凑型电源</li>
+</ul>
+<h2 id="_18">功率</h2>
+<ul>
+<li><strong>家用电脑</strong>：通常300W到750W</li>
+<li><strong>高性能工作站</strong>：可达1000W或更高</li>
+</ul>
+<h2 id="_19">效率</h2>
+<p>80 Plus认证（铜牌、银牌、金牌、白金牌、钛金牌）表示能源效率级别。</p>
+<hr />
+<h1 id="_20">时钟</h1>
+<p>时钟为计算机提供基本的时间信号，协调各个组件的工作。</p>
+<h2 id="_21">主要功能</h2>
+<ul>
+<li><strong>同步</strong>：协调CPU、内存和其他组件的操作</li>
+<li><strong>定时</strong>：为系统提供精确的时间基准</li>
+<li><strong>中断</strong>：生成定期中断信号，用于任务调度</li>
+</ul>
+<h2 id="_22">类型</h2>
+<ul>
+<li><strong>系统时钟</strong>：主板上的石英晶体振荡器</li>
+<li><strong>CPU时钟</strong>：控制处理器内部操作的时钟</li>
+<li><strong>实时时钟（RTC）</strong>：即使在系统关闭时也继续运行的时钟</li>
+</ul>
+<h2 id="_23">频率</h2>
+<ul>
+<li><strong>系统时钟</strong>：通常为14.31818 MHz</li>
+<li><strong>CPU时钟</strong>：现代处理器可达数GHz</li>
+</ul>
+<h2 id="_24">影响</h2>
+<ul>
+<li><strong>处理器性能</strong>：更高的时钟频率通常意味着更快的处理速度</li>
+<li><strong>功耗</strong>：更高的频率通常导致更高的功耗</li>
+<li><strong>超频</strong>：通过提高时钟频率来提升性能的技术</li>
+</ul>
+<hr />
+<p>这些组件共同工作，形成了计算机系统的核心。内存提供快速的临时存储，硬盘和SSD提供长期数据存储，电源确保所有组件获得稳定的电力供应，而时钟则协调整个系统的运作。理解这些组件的工作原理和相互关系，对于优化系统性能和解决潜在问题至关重要。</p>
 
 
 
